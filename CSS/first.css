@@ -1,0 +1,86 @@
+body{
+background-image:url('file:///C:/Users/Suleiman%20Yahaya/Pictures/KZXXE6942.JPG');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+p{
+    margin-top:0px;
+    margin-bottom:0%;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-family: lucida calligraphy;
+    color:black;
+    text align:center;
+    font-size: 30px;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color:black;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    background-color: black;
+}
+li{
+    display:inline;
+    padding:300px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+li a:hover {
+    background-color: gray;
+
+}
+pre{
+    text-align:right;
+font-family: lucida calligraphy;
+}
+h2{
+    text-align :center;
+color:black;
+font-family: 'Courier New', Courier, monospace;
+font-size:80px;
+margin-bottom:0%;
+}
+h3{
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:60px ;
+    color:black;
+}
+hr{
+    border:black solid
+}
+div.gallery {
+    margin: 50px;
+    float: left;
+    width: 500px;
+  }
+  
+  div.gallery:hover {
+    border: 4px solid black;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 700px;
+  }
+  
+  div.desc {
+    padding: 15px white;
+    text-align: center;
+    font-size: x-large;
+    font-family: lucida calligraphy;
+  }
+  h4{
+    text-align: center;
+    font-family: lucida calligraphy;
+    font-size: 30px;
+    margin-top:0px ;
+  }
