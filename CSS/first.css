@@ -1,87 +1,82 @@
-body{
-background-color: black;
+h1, h2, h3 {
+    margin: 0;
 }
-p{
-    margin-top:0px;
-    margin-bottom:0%;
-    margin-right: 0px;
-    margin-left: 20px;
-    font-family: lucida calligraphy;
-    color:plum;
-    text align:left;
-    font-size:35px;
-}
-h1{
+body {
+    margin: 0;
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;
+    background-color: pink;
 }
-ul{
-    list-style-type: none;
-    margin:0;
-    padding:0;
-    background-color:plum;
+
+/* navigation */
+
+nav {
+    height: 60px;
+    background-color: pink;
+    position: sticky;
+    top: 0;
 }
-li{
-    display:inline;
-    padding:300px;
-}
-li a{
+nav a {
+    padding: 20px;
+    display: inline-block;
     text-decoration: none;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
+    color: #000;
 }
-li a:hover {
-    background-color: gray;
+.text-nav {
+    display: inline-block;
 }
-pre{
-    text-align:right;
-font-family: lucida calligraphy;
+.social {
+    display: inline-block;
+    float: right;
 }
-h2{
-text-align :center;
-color:plum;
-font-family:lucida calligraphy;
-font-size:70px;
-margin-bottom:5px;
-margin-top: 0px;
+.social a i {
+    font-size: 1.2rem;
 }
-h3{
-    text-align: left;
-    font-family: lucida calligraphy;
-    font-size:40px ;
-    color:plum;
+nav a:hover {
+    background-color: #ff9999;
+    
 }
-hr{
-    border:plum solid 2px;
+
+/* Header */
+
+header {
+    background-color: #000;
+    color: pink;
+    margin-top: 0;
+    padding: 20px;
+    text-align: center;
 }
-div.gallery {
-    margin: 50px;
+header h1 {
+    font-size: 70px;
+}
+
+/* Main */
+
+main {
+    position: relative;
+}
+main h3 {
+    padding: 20px;
+}
+.img-container {
+    display: inline-block;
+    position: absolute;
+    left: 15%;
+    height: 400px;
+    padding: 20px 0;
+}
+.gallery {
     float: left;
-    width: 500px;
-  }
-  
-  div.gallery img {
-    width: 100%;
-    height: 700px;
-    margin-left: 50px;
-  }
-  
-  div.desc {
-    padding: 15px white;
+    padding: 10px;
+}
+.gallery img {
+    height: 300px;
+    width: 200px;
+}
+.desc {
     text-align: center;
-    font-size: x-large;
-    font-family: lucida calligraphy;
-    color: plum;
-  }
-  h4{
-    text-align: center;
-    font-family: lucida calligraphy;
-    font-size: 20px;
-    margin-top:0px ;
-    color: plum;
-  }
-  h5{
-    font-family:lucida calligraphy;
-    color:plum;
-    font-size: 35px;
-  }
+}
+.img-container:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
