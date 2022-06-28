@@ -12,11 +12,14 @@ body {
 nav {
     height: 60px;
     background-color: pink;
-    position: sticky;
+    width: 100%;
+    position: fixed;
     top: 0;
 }
 nav a {
-    padding: 20px;
+    box-sizing: border-box;
+    padding: 21px;
+    height: 100%;
     display: inline-block;
     text-decoration: none;
     color: #000;
@@ -41,7 +44,7 @@ nav a:hover {
 header {
     background-color: #000;
     color: pink;
-    margin-top: 0;
+    margin-top: 60px;
     padding: 20px;
     text-align: center;
 }
@@ -53,29 +56,33 @@ header h1 {
 
 main {
     position: relative;
+    z-index: -1;
 }
 main h3 {
     padding: 20px;
 }
 .img-container {
-    display: inline-block;
-    position: absolute;
-    left: 15%;
+    box-sizing: border-box;
     height: 400px;
-    padding: 20px 0;
+    width: 75%;
+    margin: 0 auto;
 }
 .gallery {
-    float: left;
-    padding: 10px;
+    display: inline-block;
+    width: 24%;
 }
 .gallery img {
     height: 300px;
-    width: 200px;
+    width: 100%;
+    border: 1px solid black;
 }
 .desc {
+    width: 100%;
     text-align: center;
+    padding: 10px 0;
+    border: 1px solid black;
 }
-.img-container:after {
+.gallery:after {
     content: " ";
     display: table;
     clear: both;

@@ -1,0 +1,8 @@
+div{
+    width: 200px;
+    border: 1px solid black;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    word-break: break-all;
+}
