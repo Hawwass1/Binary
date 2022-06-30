@@ -4,14 +4,15 @@ h1, h2, h3 {
 body {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
-    background-color: pink;
+    background-image:linear-gradient(to right,purple,pink);
+
 }
 
 /* navigation */
 
-nav {
+nav { 
     height: 60px;
-    background-color: pink;
+    background-image:linear-gradient(to right,pink,purple);
     width: 100%;
     position: fixed;
     top: 0;
@@ -35,21 +36,26 @@ nav a {
     font-size: 1.2rem;
 }
 nav a:hover {
-    background-color: #ff9999;
+    background-image: linear-gradient(to right, purple, pink);
     
 }
 
 /* Header */
 
 header {
-    background-color: #000;
-    color: pink;
+    background-image: linear-gradient(to right,purple,pink);
+    color:black;
     margin-top: 60px;
     padding: 20px;
     text-align: center;
 }
 header h1 {
-    font-size: 70px;
+    font-size: 60px;
+    font-family: lucida calligraphy;
+}
+header h2{
+    font-family: lucida calligraphy;
+    font-size: 20px;
 }
 
 /* Main */
