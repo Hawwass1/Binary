@@ -58,38 +58,11 @@ header h2{
     font-size: 20px;
 }
 
-/* Main */
-
-main {
-    position: relative;
-    z-index: -1;
+.GravityFalls {
+float:left;
+width: 5px;
+height:5px;
 }
-main h3 {
-    padding: 20px;
-}
-.img-container {
-    box-sizing: border-box;
-    height: 400px;
-    width: 75%;
-    margin: 0 auto;
-}
-.gallery {
-    display: inline-block;
-    width: 24%;
-}
-.gallery img {
-    height: 300px;
-    width: 100%;
-    border: 1px solid black;
-}
-.desc {
-    width: 100%;
-    text-align: center;
-    padding: 10px 0;
-    border: 1px solid black;
-}
-.gallery:after {
-    content: " ";
-    display: table;
-    clear: both;
+.description{
+    float:right;
 }
