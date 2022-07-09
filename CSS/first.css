@@ -57,12 +57,25 @@ header h2{
     font-family: lucida calligraphy;
     font-size: 20px;
 }
-
-.GravityFalls {
-float:left;
-width: 5px;
-height:5px;
+.content{
+    width: 90%;
+    height: 80vh;
+    margin: 10vh 5%;
+    background-image: linear-gradient(to left,purple,pink);
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.35);
+    display: flex;
 }
-.description{
-    float:right;
+.text{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    font-family: lucida calligraphy
+}
+.image {
+    width: 50%;
+    height: 100%;
+}
+.image img {
+    width: 100%;
+    height: 100%;
 }
