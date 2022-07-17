@@ -43,7 +43,7 @@ nav a:hover {
 /* Header */
 
 header {
-    background-image: linear-gradient(to right,purple,pink);
+    background-image: linear-gradient(to left,purple,pink);
     color:black;
     margin-top: 60px;
     padding: 20px;
@@ -51,7 +51,7 @@ header {
 }
 header h1 {
     font-size: 60px;
-    font-family: lucida calligraphy;
+    font-family:monospace;
 }
 header h2{
     font-family: lucida calligraphy;
@@ -61,7 +61,7 @@ header h2{
     width: 90%;
     height: 80vh;
     margin: 10vh 5%;
-    background-image: linear-gradient(to left,purple,pink);
+    background-image: linear-gradient(to right,purple,pink);
     box-shadow: 0 10px 20px 0 rgba(0,0,0,0.35);
     display: flex;
 }
