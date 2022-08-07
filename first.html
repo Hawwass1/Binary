@@ -2,33 +2,70 @@
     <head>
       <!-- <script src="https://kit.fontawesome.com/7c026e4cf8" crossorigin="anonymous"></script> -->
        <link rel="stylesheet" href="CSS/first.css">
-        <title>Binary code</title>
+        <title>The Arsenal</title>
         <link rel="stylesheet" href="../binary-code/assets/fontawesome-free-6.0.0-web/css/all.min.css">
     </head>
     <body>
+      <div class="header" id="header">
         <nav>
-          <div class="text-nav">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Projects</a>
-          </div>
-
-          <div class="social">
-            <a href="#"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-snapchat"></i></a>
-          </div>
+            <img src="" class="tesla">
+            <ul>
+                <li><a href="#" id="models">Model S</a></li>
+                <li><a href="#" id="model3">Model 3</a></li>
+                <li><a href="#" id="modelx">Model X</a></li>
+                <li><a href="#" id="modely">Model Y</a></li>
+            </ul>
+            <a href="#" class="btn">Reserve Now</a>
         </nav>
-        <header>
-          <h1>Binary code</h1>
-          <h2>your home for cars...</h2>
 
-        </header>
-            <h3>2022 Models</h3>
-            <p>Despite thousands of animations released aspect. For me, what pushes an animation to make the cut is mostly the graphics and then the humor. In these animations listed, there is a perfect style of play. I'm talking about the colors, the clarity, the plot, the characters and most especially humor..including dark humor. The best thing about every animation is how the characters fall in place and in these four animations, you'd find a perfect mix of supporting characters each with the greatest lines in the universe! and their storylines are unlike any other</p>
-          </div>
-          </div>
+        <div class="info">
+            <div>
+                <h2>1.9 s</h2>
+                <p>60 mph</p>                 
+            </div>
+            <div>
+                <h2>200mph</h2>
+                <p>top speed</p>                 
+            </div>
+            <div>
+                <h2>396 mi</h2>
+                <p>Max Range</p>                 
+            </div>
+            <div class="line">                
+            </div>
+            <div>
+                <h2 id="model">Model S</h2>
         </div>
+   </div>
+
+   
+<script>
+
+    var header = document.getElementById("header");
+    var ms = document.getElementById("models");
+    var m3 = document.getElementById("model3");
+    var mx = document.getElementById("modelx");
+    var my = document.getElementById("modely");
+    var model = document.getElementById("model");   
+
+
+    ms.onmouseover = function(){
+        header.style.backgroundImage = "url(images/image-1.png)"
+        model.innerHTML = "Model S";
+    }
+    m3.onmouseover = function(){
+        header.style.backgroundImage = "url(images/image-1.0.jpeg)"
+        model.innerHTML = "Model 3";
+    }
+    mx.onmouseover = function(){
+        header.style.backgroundImage = "url(images/image-3.webp)"
+        model.innerHTML = "Model X";
+    }
+    my.onmouseover = function(){
+        header.style.backgroundImage = "url(images/image-4.webp)"
+        model.innerHTML = "Model Y";
+    }
+
+</script>
     </body>
 </html>  
