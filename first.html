@@ -9,31 +9,31 @@
       <div class="header" id="header">
         <nav>
             <ul>
-                <li><a href="#" id="models">Model S</a></li>
-                <li><a href="#" id="model3">Model 3</a></li>
-                <li><a href="#" id="modelx">Model X</a></li>
-                <li><a href="#" id="modely">Model Y</a></li>
+                <li><a href="#" id="models">22/23 Kits</a></li>
+                <li><a href="#" id="model3">21/22 Kits</a></li>
+                <li><a href="#" id="modelx">Pre-Match kits</a></li>
+                <li><a href="#" id="modely">Highbury collection</a></li>
             </ul>
-            <a href="#" class="btn">Reserve Now</a>
+            <a href="#" class="btn">Shop Now</a>
         </nav>
 
         <div class="info">
             <div>
-                <h2>1.9 s</h2>
-                <p>60 mph</p>                 
+                <h2>The Arsenal</h2>
+                <p>Stadium tours</p>                 
             </div>
             <div>
-                <h2>200mph</h2>
-                <p>top speed</p>                 
+                <h2>Login</h2>
+                <p>Quick links</p>                 
             </div>
             <div>
-                <h2>396 mi</h2>
-                <p>Max Range</p>                 
+                <h2>Kits</h2>
+                <p>Help center</p>                 
             </div>
             <div class="line">                
             </div>
             <div>
-                <h2 id="model">Model S</h2>
+                <h2 id="model">Players</h2>
         </div>
    </div>
 
@@ -48,19 +48,19 @@
     var model = document.getElementById("model");   
 
 
-    ms.onmouseover = function(){
-        header.style.backgroundImage = "url(images/image-1.png)"
+    ms.onclick = function(){
+        header.style.backgroundImage = "url()"
         model.innerHTML = "Model S";
     }
-    m3.onmouseover = function(){
+    m3.onclick = function(){
         header.style.backgroundImage = "url(images/image-1.0.jpeg)"
         model.innerHTML = "Model 3";
     }
-    mx.onmouseover = function(){
+    mx.onclick = function(){
         header.style.backgroundImage = "url(images/image-3.webp)"
         model.innerHTML = "Model X";
     }
-    my.onmouseover = function(){
+    my.onclick = function(){
         header.style.backgroundImage = "url(images/image-4.webp)"
         model.innerHTML = "Model Y";
     }
